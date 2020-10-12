@@ -1,0 +1,47 @@
+.question {
+  margin-top: 30px;
+
+  &__name {
+    margin-bottom: 8px;
+    opacity: 0.5;
+    color: #242422;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 125%;
+  }
+
+  &__text {
+    margin-bottom: 8px;
+    color: #242422;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 125%;
+    &_actual {
+      font-size: 20px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+  }
+
+  &__button {
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+
+    &_accept {
+      margin-right: 16px;
+      color: #237BFF;
+    }
+
+    &_decline {
+      color: #E48EA5;
+    }
+  }
+}

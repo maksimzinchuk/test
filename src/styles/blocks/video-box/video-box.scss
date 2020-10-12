@@ -1,0 +1,24 @@
+.video-box {
+  width: 524px;
+  height: 294px;
+  border: none;
+  overflow: hidden;
+  transform: scale(-1.35, 1.35);
+  @include phones() {
+    transform: scale(-1.6, 1.6);
+  }
+  &_initial {
+    width: 459px;
+    height: 258px;
+    @include tablets() {
+      width: 100%;
+    }
+  }
+  &_guest {
+    height: 339px;
+    width: 603px;
+    @include phones() {
+      width: 100%;
+    }
+  }
+}

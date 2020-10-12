@@ -1,0 +1,34 @@
+.header {
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px;
+    background: #F3F3F3;
+  }
+
+  &__title {
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #237BFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 125%;
+  }
+
+  &__exit {
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #E48EA5;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 125%;
+  }
+}

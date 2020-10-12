@@ -1,0 +1,19 @@
+.spectators {
+  display: flex;
+  margin-left: auto;
+  @include desktopHd() {
+    margin: 15px auto 0;
+  }
+  &__text {
+    margin-left: 10px;
+    color: #999999;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 144%;
+    @include phones() {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

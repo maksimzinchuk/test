@@ -1,0 +1,27 @@
+.guest-controls {
+  display: flex;
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    margin-right: 5px;
+    background: #F5F4F2;
+    cursor: pointer;
+
+    &_disabled {
+      background: #FFECEB;
+    }
+  }
+
+  &__leave {
+    width: 210px;
+    margin-left: auto;
+  }
+}

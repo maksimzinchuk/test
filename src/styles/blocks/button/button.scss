@@ -1,0 +1,15 @@
+.button {
+  width: 100%;
+  height: 56px;
+  background: #1C2674;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  &_red {
+    background: #FFECEB;
+    color: #EE3124;
+  }
+}

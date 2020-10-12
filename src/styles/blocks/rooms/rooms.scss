@@ -1,0 +1,12 @@
+.rooms {
+  &__title {
+    margin: 30px 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+  }
+  &__wrapper {
+    display: flex;
+  }
+}

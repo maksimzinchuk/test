@@ -1,0 +1,42 @@
+.questions {
+  display: flex;
+  width: 524px;
+  height: 500px;
+  margin-top: 23px;
+  background-color: #F3F3F3;
+  overflow-y: hidden;
+
+  &_actual {
+    height: 152px;
+  }
+
+  &_next {
+    height: 325px;
+  }
+
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 30px 140px 0 40px;
+    overflow-y: scroll;
+
+    &_actual {
+      padding: 30px 34px 0 40px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 5px;
+    opacity: 0.5;
+    color: #242422;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 125%;
+  }
+
+  &__container {
+    width: 100%;
+    height: 100%;
+  }
+}

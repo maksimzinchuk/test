@@ -1,0 +1,32 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 603px;
+  height: 339px;
+  margin-top: 23px;
+  margin-bottom: 5px;
+  background: #f5f4f2;
+  overflow: hidden;
+  position: relative;
+  @include phones() {
+    width: 100%;
+  }
+  &_speaker {
+    background: #C4C4C4;
+  }
+
+  &_guest {
+    background: #E3E3E3;
+  }
+
+  &__label {
+    position: absolute;
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}

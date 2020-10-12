@@ -1,0 +1,94 @@
+.speaker {
+  width: 1280px;
+  padding: 30px 0;
+  margin: 0 auto;
+
+  &_guest {
+    width: 1366px;
+    @include desktopHd() {
+      width: 100%;
+    }
+  }
+
+  &_initial {
+    padding: 90px 0;
+  }
+
+  &__wrap {
+    overflow: hidden;
+    height: 294px;
+    width: 525px;
+    &_initial {
+      height: 258px;
+      width: 459px;
+      @include tablets() {
+        width: 100%;
+      }
+    }
+    &_guest {
+      height: 339px;
+      width: 603px;
+    }
+  }
+
+  &__item {
+    width: 525px;
+    height: 294px;
+  }
+
+  &__video {
+    width: 525px;
+    height: 294px;
+    background: #c1c1c1;
+    &_active {
+      background: #FFFFFF;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    &_guest {
+      padding: 0 80px;
+      @include desktopHd() {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  &__wrapper {
+    margin-right: 30px;
+
+    &_initial {
+      margin: 0 auto;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:first-of-type {
+      margin-right: auto;
+    }
+  }
+
+  &__wrapper-guest {
+    @include desktopHd() {
+      margin-bottom: 30px;
+    }
+    @include phones() {
+      width: 100%;
+    }
+  }
+
+  &__heading {
+    color: #000000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}

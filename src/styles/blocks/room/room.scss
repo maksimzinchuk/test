@@ -1,0 +1,53 @@
+.room {
+  position: relative;
+  width: 25%;
+  margin-right: 20px;
+  background-color: #F3F3F3;
+  cursor: pointer;
+  text-decoration: none;
+
+  &_empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px dashed #237BFF;
+    cursor: auto;
+  }
+
+  &__edit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .5;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    padding: 30px 20px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    color:  #237BFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 125%;
+  }
+
+  &__links {
+    margin-bottom: auto;
+    overflow-y: scroll;
+  }
+
+  &__plus {
+    color:  #237BFF;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,29 @@
+.rooms-header {
+  width: 100%;
+  height: 60px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+  }
+
+  &__title {
+    color:  #237BFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 125%;
+  }
+
+  &__exit {
+    color: #E48EA5;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 125%;
+  }
+}

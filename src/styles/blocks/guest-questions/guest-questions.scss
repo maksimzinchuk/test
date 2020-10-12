@@ -1,0 +1,67 @@
+.guest-questions {
+  width: 600px;
+  height: 121px;
+  background-color: #FFFFFF;
+  @include phones() {
+    width: 100%;
+  }
+
+  &_speaker {
+    padding: 24px 30px;
+    margin-right: auto;
+    @include phones() {
+      height: 150px;
+    }
+  }
+
+  &_guest {
+    padding: 32px 30px;
+    margin-left: auto;
+    @include desktopHd() {
+      margin-left: 0;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    @include phones() {
+
+    }
+  }
+
+  &__actual {
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+  }
+
+  &__queue {
+    color: #1C2674;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+  }
+
+  &__question {
+    width: 80%;
+    color: #000000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+  }
+}

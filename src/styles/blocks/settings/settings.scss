@@ -1,0 +1,45 @@
+.settings {
+  padding: 21px 49px 18px 40px;
+  margin-top: 23px;
+  background-color: #F3F3F3;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 63px;
+    cursor: pointer;
+    &:last-of-type {
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
+
+  &__round {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    &_disabled {
+      background: #FFECEB;
+    }
+  }
+
+  &__text {
+    padding: 0;
+    margin: 12px 0 0;
+    opacity: 0.5;
+    color: #242422;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 125%;
+  }
+}

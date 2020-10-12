@@ -1,0 +1,48 @@
+.auth {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: fit-content;
+    padding: 30px 20px;
+    border: 1px solid #eee;
+  }
+
+  &__title {
+    margin-bottom: auto;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  &__label {
+    margin: 5px 0;
+  }
+
+  &__input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+
+  &__button {
+    align-self: center;
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
+  }
+}
